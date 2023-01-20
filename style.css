@@ -33,7 +33,7 @@ html {
   }
   .cta-button{
     color: azure;
-    padding: 2% 5%;
+    padding: 1% 5%;
     margin: 1% 1%;
     border-radius: 32px;
     border: none;
@@ -51,22 +51,36 @@ html {
   .wrapper{
     max-width: 90%;
     margin: 0 auto;
+    text-align: center;
   }
 
-
-  
   /* Header section */
   .header{
     text-align: center;
-    width: 100vh;
+    height: 100vh;
     margin: 0 auto;
+  }
+  .header-banner-desktop{
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
   .clipboard-logo-header{
     margin: 10% 0% 5%;
     height:auto;
-    width: 17%;
+    width: 12%;
   }
-  
+  .header-cta{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+/* TODO */
+/* Clean up and finish header section to make it closer to the design sheet. */
+
 
 
 
