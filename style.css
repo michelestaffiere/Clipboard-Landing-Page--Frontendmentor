@@ -24,19 +24,66 @@ html {
   }
 
   /* styling */
+
+
+  /* General Elements */
+  *{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+  }
+  .cta-button{
+    color: azure;
+    padding: 2% 5%;
+    margin: 1% 1%;
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .mac{
+    background-color:hsl(233, 100%, 69%);
+    border-bottom: 2px solid hsl(233, 53%, 41%);
+  }
+  .ios{
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(171, 81%, 24%);
+  }
   .wrapper{
     max-width: 90%;
     margin: 0 auto;
   }
 
+
+  
+  /* Header section */
   .header{
     text-align: center;
+    width: 100vh;
+    margin: 0 auto;
   }
-  .features{
+  .clipboard-logo-header{
+    margin: 10% 0% 5%;
+    height:auto;
+    width: 17%;
+  }
+  
+
+
+
+/* Features */
+  .features-1{
     text-align: center;
   }
 .features1-container{
     display: flex;
 }
+
+
+/* TODO LIST  */
+/* ----------- */
+/* > Features-2 */
+/* > Features-3 */
+/* > Footer */
+/* > Media Q's */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
