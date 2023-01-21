@@ -103,6 +103,7 @@ html {
   margin-bottom: 10%;
 }
 
+
 /* Snippets Section*/
   .snippets{
     text-align: center;
@@ -128,7 +129,6 @@ html {
   }
 .snippets-container{
     display: flex;
-    position: relative;
     text-align: left;
 }
 .snippets-points h3{
@@ -141,6 +141,8 @@ html {
   width: 26%;
   padding-top: 8%;
 }
+
+
 
 /* Access Section */
 .access{
