@@ -29,11 +29,30 @@ html {
   /* General Elements */
   *{
     font-family: 'Bai Jamjuree', sans-serif;
-    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+  }
+  h1,h2,h3{
+    color:hsl(210, 10%, 33%);
+    font-weight: 700;
+  }
+  p{
+    line-height: 180%;
+  }
+  button{
+    font-size: 18px;
   }
   .cta-button{
     color: azure;
-    padding: 1% 5%;
+    padding: 2% 6%;
+    margin: 1% 1%;
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .cta-button-final{
+    color: azure;
+    padding: 1% 4%;
     margin: 1% 1%;
     border-radius: 32px;
     border: none;
@@ -65,38 +84,154 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
   }
   .clipboard-logo-header{
-    margin: 10% 0% 5%;
+    margin: 10% 0% 2.5%;
     height:auto;
-    width: 12%;
+    width: 10%;
   }
   .header-cta{
     text-align: center;
     width: 40%;
     margin: 0 auto;
   }
+.header-cta h1{
+  margin-bottom: 2%;
+  font-size: 2em;
+}
+.header-cta p{
+  margin-bottom: 10%;
+}
 
-/* TODO */
-/* Clean up and finish header section to make it closer to the design sheet. */
-
-
-
-
-/* Features */
-  .features-1{
+/* Snippets Section*/
+  .snippets{
     text-align: center;
+    height: 100vh;
   }
-.features1-container{
+  .snippets-heading{
+    width: 47%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .snippets-heading h2{
+    margin-bottom: 2%;
+    font-size: 1.5em;
+  }
+  .snippets-heading p{
+    margin-bottom: 10%;
+  }
+  .snippets-img{
+    position: relative;
+    left: -8%;
+    height: auto;
+    width: 55%;
+  }
+.snippets-container{
     display: flex;
+    position: relative;
+    text-align: left;
+}
+.snippets-points h3{
+  margin-bottom: 4%;
+}
+.snippets-points p{
+  margin-bottom: 8%;
+}
+.snippets-points{
+  width: 26%;
+  padding-top: 8%;
+}
+
+/* Access Section */
+.access{
+  height: 100vh;
+}
+.access-heading{
+  width: 47%;
+  margin: 0 auto;
+}
+.access-heading h2{
+  margin-bottom: 4%;
+}
+.access-img{
+  padding-top: 7%;
+}
+
+
+/* Supercharge section */
+.supercharge{
+  height: 100vh;
+}
+.supercharge-heading{
+  padding-bottom: 4%;
+}
+.supercharge-heading p{
+  padding-top: 1%;
+}
+.supercharge-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.supercharge-card{
+  width: 26%;
+}
+.supercharge-card h3{
+  padding: 4% 0;
+}
+.supercharge-card img{
+  padding: 5% 0;
+}
+.partners-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.partners{
+  margin-right: 5%;
+}
+
+.final-cta{
+  width: 47%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.final-cta h2{
+  margin-bottom: 4%;
+}
+.final-cta p{
+  margin-bottom: 4%;
+}
+
+footer{
+  height: 15vh;
+  background-color: hsl(204, 9%, 89%);
+}
+footer a{
+  color:  hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+
+.footer-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.footer-list{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 5%;
+  margin-right: 20%;
+  margin-left: 5%;
+}
+.footer-logo{
+  height: auto;
+  width: 4%;
 }
 
 
 /* TODO LIST  */
 /* ----------- */
-/* > Features-2 */
-/* > Features-3 */
 /* > Footer */
 /* > Media Q's */
 .attribution { font-size: 11px; text-align: center; }
