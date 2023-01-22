@@ -204,28 +204,38 @@ html {
   margin-bottom: 4%;
 }
 
+/* Footer section */
 footer{
+  display: flex;
+  align-items: center;
   height: 15vh;
   background-color: hsl(204, 9%, 89%);
+}
+.footer-container{
+  display: flex;
+  align-items: center;
+  width: 80%;
 }
 footer a{
   color:  hsl(210, 10%, 33%);
   text-decoration: none;
 }
-
-.footer-container{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
 .footer-list{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 5%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 3%;
   margin-right: 20%;
-  margin-left: 5%;
+  width: 60%;
+  gap: 8%;
 }
+.footer-list ul{
+  text-align: left;
+}
+.footer-list ul li{
+  margin-bottom: 15%;
+}
+
 .footer-logo{
   height: auto;
   width: 4%;
@@ -234,7 +244,6 @@ footer a{
 
 /* TODO LIST  */
 /* ----------- */
-/* > Footer */
-/* > Media Q's */
+/* > Media Q's /mobile design*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
