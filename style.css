@@ -207,7 +207,6 @@ html {
 /* Footer section */
 footer{
   display: flex;
-  align-items: center;
   height: 15vh;
   background-color: hsl(204, 9%, 89%);
 }
@@ -225,7 +224,7 @@ footer a{
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-left: 3%;
-  margin-right: 20%;
+  margin-right: 10%;
   width: 60%;
   gap: 8%;
 }
@@ -239,7 +238,10 @@ footer a{
 .footer-logo{
   height: auto;
   width: 4%;
+  margin-right: 7%;
 }
+.footer-socials{width:10%;}
+.footer-socials a{margin-right: 8%;}
 
 
 /* TODO LIST  */
