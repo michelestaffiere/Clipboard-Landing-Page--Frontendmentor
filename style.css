@@ -139,7 +139,7 @@ html {
 }
 .snippets-points{
   width: 26%;
-  padding-top: 8%;
+  padding-top: 6%;
 }
 
 
@@ -242,10 +242,86 @@ footer a{
 }
 .footer-socials{width:10%;}
 .footer-socials a{margin-right: 8%;}
-
-
-/* TODO LIST  */
-/* ----------- */
-/* > Media Q's /mobile design*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* mobile design triggers at Iphone 14 Pro Max screen resolution */
+@media (max-width: 430px) {
+  .header{
+    height: 75vh;
+  }
+  .header-cta{
+    width: 75%;
+  }
+  .clipboard-logo-header{
+    width: 30%;
+    padding-bottom: 10%;
+  }
+  button{
+    padding-bottom: 30%;
+  }
+  .cta-button{
+      padding: 6% 25%;
+      margin-bottom: 5%;
+  }
+  .snippets-heading{
+    width: 75%;
+  }
+  .snippets-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+  .snippets-img{
+    position: static;
+  }
+  .snippets-points {
+    width: 75%;
+    padding-top: 10%;
+}
+.access{
+  height: 50vh;
+}
+.access-heading {
+  width: 75%;
+}
+.supercharge{
+  height: 50vh;
+  overflow: scroll;
+}
+.supercharge-container {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.supercharge-card {
+  width: 75%;
+}
+.partners-container {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+}
+.partners {
+  height: auto;
+  width: 35%;
+  margin: 0 auto;
+}
+}
+
+/* footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+}
+.footer-container{
+  flex-direction: column;
+}
+.footer-socials{
+  display: flex;
+} */
+
