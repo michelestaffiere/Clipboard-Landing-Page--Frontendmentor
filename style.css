@@ -250,7 +250,7 @@ footer a{
 /* mobile design triggers at Iphone 14 Pro Max screen resolution */
 @media (max-width: 430px) {
   .header{
-    height: 75vh;
+    height: auto;
   }
   .header-cta{
     width: 75%;
@@ -265,6 +265,9 @@ footer a{
   .cta-button{
       padding: 6% 25%;
       margin-bottom: 5%;
+  }
+  .snippets{
+    height: auto;
   }
   .snippets-heading{
     width: 75%;
@@ -283,14 +286,13 @@ footer a{
     padding-top: 10%;
 }
 .access{
-  height: 50vh;
+  height: auto;
 }
 .access-heading {
   width: 75%;
 }
 .supercharge{
-  height: 50vh;
-  overflow: scroll;
+  height: auto;
 }
 .supercharge-container {
   justify-content: center;
@@ -304,12 +306,17 @@ footer a{
   margin-top: 20%;
   display: flex;
   flex-direction: column;
-  gap: 27%;
+  align-items: center;
+  gap: 4em;
 }
 .partners {
   height: auto;
   width: 35%;
   margin: 0 auto;
+}
+
+.final-cta {
+    width: 85%;
 }
 }
 
